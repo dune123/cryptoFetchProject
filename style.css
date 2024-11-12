@@ -1,0 +1,77 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.bodyContainer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap:5vh;
+    padding-top: 6vh;
+    padding-left: 3vw;
+    height:100vh;
+}
+
+.bodyContainer .upperContainer{
+    display: flex;
+    gap:2vw;
+}
+
+.upperContainer input{
+    width:50vw;
+    border:1px solid white;
+    color: white;
+    padding:0.5rem;
+    height: 7vh;
+    background-color: transparent;
+}
+
+.upperContainer button{
+    width:20vw;
+    height:7vh;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.lowerContainer{
+    width:100vw;
+    padding-left:0.7vw;
+    overflow-y: auto;
+}
+
+.lowerContainer table{
+    display: flex;
+    width:100%;
+}
+
+table tbody{
+    display: flex;
+    flex-direction: column;
+    width:94%;
+}
+
+tbody tr{
+    border-bottom:1px solid white ;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: space-between;
+    padding:1vh;
+}
+
+tr img{
+    height:6vh;
+    width: 4vw;
+}
+
+tr td{
+    color:white;
+    display: flex;
+    gap:1vw;
+    align-items: center;
+    justify-content: center;
+}
